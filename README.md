@@ -40,7 +40,7 @@ cargo add online
 ### Async
 
 ```toml
-online = { version = "4.0.0",  default-features = false, features = ["tokio"] }
+online = { version = "4.0.0",  default-features = false, features = ["tokio-runtime"] }
 ```
 
 ## Use
